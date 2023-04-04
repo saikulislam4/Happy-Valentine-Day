@@ -278,7 +278,7 @@
         /* -------------------navbar css End------------------- */
         /* -------------------about css start------------------- */
         #about_section{
-            background: url(../Images/aboutBg.png) no-repeat repeat center center;
+            background: url(./Images/aboutBg.png) no-repeat repeat center center;
             background-size: cover;
             margin: -70px 0;
             
