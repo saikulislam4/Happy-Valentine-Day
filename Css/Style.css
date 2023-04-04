@@ -72,7 +72,7 @@
             bottom: 74px;
             width: 120px;
             height: 100px;
-            background: url(../Images/valentine-shadow.png);
+            background: url(/Images/valentine-shadow.png);
             position: absolute;
             background-size: cover;
             
@@ -109,7 +109,7 @@
             bottom: 74px;
             width: 120px;
             height: 100px;
-            background: url(../Images/valentine-shadow.png);
+            background: url(./Images/valentine-shadow.png);
             position: absolute;
             background-size: cover;
             transform: scaleX(-1);
@@ -278,7 +278,7 @@
         /* -------------------navbar css End------------------- */
         /* -------------------about css start------------------- */
         #about_section{
-            background: url(./Images/aboutBg.png) no-repeat repeat center center;
+            background: url(/Images/aboutBg.png) no-repeat repeat center center;
             background-size: cover;
             margin: -70px 0;
             
