@@ -72,7 +72,7 @@
             bottom: 74px;
             width: 120px;
             height: 100px;
-            background: url(/images/valentine-shadow.png);
+            background: url(../Images/valentine-shadow.png);
             position: absolute;
             background-size: cover;
             
@@ -109,7 +109,7 @@
             bottom: 74px;
             width: 120px;
             height: 100px;
-            background: url(/images/valentine-shadow.png);
+            background: url(../Images/valentine-shadow.png);
             position: absolute;
             background-size: cover;
             transform: scaleX(-1);
