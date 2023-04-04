@@ -612,7 +612,7 @@
 
         /* -------------------Countdown  css start------------------- */
     #count_down{
-        background: url(../Images/countdown\ bg.png) no-repeat repeat;
+        background: url(../Images/countdown\ bg.png) no-repeat repeat center center;
         background-size: cover;
         padding: 100px 0;
     }
