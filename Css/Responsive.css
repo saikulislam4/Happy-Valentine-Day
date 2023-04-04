@@ -82,13 +82,16 @@
         #count_down .inner .item h4 {font-size: 20px;}
         #count_down .inner .item h2 {font-size: 15px;}
         #count_down { padding: 50px 0;}
-        #count_down .inner .item::after {width: 88%;height: 85%;left: 8%;top: -74%;opacity: 0.5;}
+        #count_down .inner .item img {top: -67%;width: 30%;}
+
 
         /* ====================Testimonial responsive start==================== */
         #testimonial {padding: 50px 15px 50px 15px;}
         #testimonial .main .inner .slider {margin: 0px 0px !important;}
         #testimonial .main .inner .innersss { margin: 0px 0px;}
         .slick-initialized .slick-slide {margin: 0 10px;}
+        #testimonial .main .next {right: -2%;}
+        #testimonial .main .frev {left: -2%;}
         
         /* ====================newsletter responsive start==================== */
         #testimonial .newsletter { padding: 20px 18px;bottom: -20px;border-radius: 0px;}
@@ -204,7 +207,10 @@
         #count_down .inner .item h4 {font-size: 20px;}
         #count_down .inner .item h2 {font-size: 15px;}
         #count_down { padding: 50px 0;}
-        #count_down .inner .item::after {  width: 32%; height: 86%; left: 37%; top: -92%;opacity: 0.5;}
+        #count_down .inner .item img {
+                top: -67%;width: 30%;}
+        
+
 
         /* ====================Testimonial responsive start==================== */
         #testimonial {padding: 50px 15px 50px 15px;}

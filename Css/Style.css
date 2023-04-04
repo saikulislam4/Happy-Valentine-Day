@@ -72,7 +72,7 @@
             bottom: 74px;
             width: 120px;
             height: 100px;
-            background: url(/images/valentine-shadow.png);
+            background: url(../Images/valentine-shadow.png);
             position: absolute;
             background-size: cover;
             
@@ -109,7 +109,7 @@
             bottom: 74px;
             width: 120px;
             height: 100px;
-            background: url(/images/valentine-shadow.png);
+            background: url(../Images/valentine-shadow.png);
             position: absolute;
             background-size: cover;
             transform: scaleX(-1);
@@ -278,7 +278,7 @@
         /* -------------------navbar css End------------------- */
         /* -------------------about css start------------------- */
         #about_section{
-            background: url(../Images/aboutBg.png) no-repeat repeat center center;
+            background: url(../Images/about-bg.png) no-repeat repeat center center;
             background-size: cover;
             margin: -70px 0;
             
@@ -340,7 +340,7 @@
         /* -------------------history of valentine css End------------------- */
         /* -------------------proposal css start------------------- */
         #proposal_section{
-            background:url(/images/proposal-bg.png) no-repeat repeat center center;
+            background:url(../Images/proposal-bg.png) no-repeat repeat center center;
             background-size: cover;
         }
         #proposal_section .main{
@@ -400,7 +400,7 @@
         /* -------------------valentain offer  css start------------------- */
         #valantaine_offer{
             
-            background:url(/images/valentine_bg.png);
+            background:url(../Images/valentine_bg.png);
             
         }
         #valantaine_offer .inner{
@@ -609,7 +609,7 @@
 
         /* -------------------Countdown  css start------------------- */
     #count_down{
-        background: url(/images/countdown\ bg.png) no-repeat repeat;
+        background: url(../Images/countdown\ bg.png) no-repeat repeat;
         background-size: cover;
         padding: 100px 0;
     }
@@ -622,15 +622,12 @@
         text-align: center;
         position: relative;
     }
-    #count_down .inner .item::after {
-        content: "";
-        width: 21%;
-        height: 84%;
+    #count_down .inner .item img {
         position: absolute;
-        left: 40%;
-        top: -126%;
-        background: url(/images/countdown\ love.png);
-        opacity: 0.7;
+        left: 50%;
+        top: -130%;
+        opacity: .5;
+        transform: translate(-50%, 0%);
     }
     #count_down .inner .item h4{
         color: #d50a51;
@@ -751,7 +748,7 @@
         top: 105px;
         width: 72px;
         height: 66px;
-        background: url(/images/testimonia-1.png);
+        background: url(../Images/testimonial-love.png);
         opacity: 0.8;
     }
     #testimonial .newsletter::before {
@@ -761,7 +758,7 @@
         bottom: 110px;
         width: 72px;
         height: 66px;
-        background: url(/images/testimonial-love.png);
+        background: url(../Images/testimonial-love.png);
         opacity: 0.8;
     }
     #testimonial .newsletter .inner {
@@ -844,7 +841,7 @@
     /* -------------------footer  css start------------------- */
     #footer{
         padding: 90px 0px 0px 0px;
-        background: url(/images/footer.png);
+        background: url(../Images/footer.png);
     }
     #footer .logo{
         text-align: center;
