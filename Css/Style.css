@@ -617,11 +617,9 @@
 
         /* -------------------Countdown  css start------------------- */
     #count_down{
-<<<<<<< HEAD
+
         background: url(../Images/countdown\ bg.png) no-repeat repeat;
-=======
-        background: url(../Images/countdown\ love.png) no-repeat repeat;
->>>>>>> b6604ed71ac14b816f00c21efdc81aeebd6d9f02
+
         background-size: cover;
         padding: 100px 0;
     }
