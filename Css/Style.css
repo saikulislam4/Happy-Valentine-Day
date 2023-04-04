@@ -1,0 +1,943 @@
+    *{
+        margin: 0;
+        padding: 0;
+        text-decoration: none;
+        outline: none;
+        box-sizing: border-box;
+        list-style: none;
+    }
+    .container{
+    max-width: 1120px;
+        margin: 0 auto;
+    }
+    img{
+        vertical-align: middle;
+    }
+    p{ 
+        text-align: left;
+        font-size: 16px;
+        color: #444444;
+        line-height: 26px;
+        font-weight: 500;
+        font-family:'Open Sans', sans-serif ;
+    }
+    p span{
+        display: inline-block;
+        margin-top: 40px;
+    }
+    .common_btn{
+        display:inline-block;
+        padding: 10px 20px;
+        background: #d50a51 transparent;
+        border: 1px solid #d50a51;
+        border-radius: 50px;
+        transition: 0.4s;
+    }
+    .common_btn:hover{
+        background: #d50a51;
+
+    }
+    .common_btn i{
+        color: #d50a51;
+        font-size: 20px;
+        transition: 0.4s;
+        
+        
+    }
+    /* --------------------btn common css-------------------- */
+    .common_btn:hover i{
+        color: #fff;  
+        }
+        .common_btn:hover a{
+            color: #fff;  
+        }
+        .common_btn a{
+            color: #d50a51;
+            font-size: 20px;
+            font-family: 'Josefin Sans', sans-serif;
+            font-weight: 400;
+            transition: 0.4s;
+        }
+        /* --------------------valentine common css-------------------- */
+        .common_valentine_btn{
+            position: relative;
+            z-index: 1;
+            padding-top: 20px;
+            padding-left: 50px;
+            padding-bottom: 60px;
+        }
+        .common_valentine_btn::after {
+            content: "";
+            left: -24px;
+            bottom: 74px;
+            width: 120px;
+            height: 100px;
+            background: url(/images/valentine-shadow.png);
+            position: absolute;
+            background-size: cover;
+            
+        }
+        .common_valentine_btn h3{
+            display: block;
+            font-size: 24px;
+            color: #666666;
+            font-weight: 400;
+            line-height: 34px;
+            font-family: 'Josefin Sans', sans-serif;
+            
+        }
+        .common_valentine_btn h2{
+            font-size: 32px;
+            color: #d50a51;
+            font-weight: 400;
+            line-height: 34px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        /* --------------------valentine common end-------------------- */
+        /* --------------------valentine common right-------------------- */
+        .right_valentine_btn{
+            position: relative;
+            z-index: 1;
+            padding-top: 20px;
+            padding-right: 50px;
+            padding-bottom: 60px;
+            text-align: right;
+        }
+        .right_valentine_btn::after {
+            content: "";
+            right: -18px;
+            bottom: 74px;
+            width: 120px;
+            height: 100px;
+            background: url(/images/valentine-shadow.png);
+            position: absolute;
+            background-size: cover;
+            transform: scaleX(-1);
+            
+        }
+        .right_valentine_btn h3{
+            display: block;
+            font-size: 24px;
+            color: #666666;
+            font-weight: 400;
+            line-height: 34px;
+            font-family: 'Josefin Sans', sans-serif;
+            
+        }
+        .right_valentine_btn h2{
+            font-size: 32px;
+            color: #d50a51;
+            font-weight: 400;
+            line-height: 34px;
+            font-family: 'Josefin Sans', sans-serif;
+        }
+        
+        /* -------------------common css End------------------- */
+        /* -------------------navbar css start------------------- */
+        #navbar_section{
+            position: sticky;
+            width: 100%;
+            left: 0;
+            top: 0;
+            z-index: 9999;
+            background: #fefafc;
+            transition: .3s;
+    
+            
+        
+        }
+
+        #navbar_section .main{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 0;
+        
+        }
+        #navbar_section .main .logo{
+            width: 30%;
+            
+        }
+      
+        .navbar{
+            background: rgba(254, 250, 252, 0.744) !important;
+            backdrop-filter: blur(2px);
+            
+        }
+
+        #navbar_section .main ul li{
+            display: inline-block;
+        }
+        #navbar_section .main ul li a{
+            font-size: 18px;
+            color: #222;
+            margin: 0 15px;
+            transition: 0.4s;
+            position: relative;
+        }
+        #navbar_section .main ul li a img {
+            position: absolute;
+            left:50%;
+            bottom: -12px;
+            width: 45px;
+            z-index: 1;
+            transition: 0.4s;
+            opacity: 0;
+            transform: translate(-50%, -50%);
+        }
+        #navbar_section .main ul li a:hover img{
+            bottom: -30px;
+            opacity: 1;
+        }
+        #navbar_section .main ul li a:hover{
+            color: #d50a51;
+        }
+        /* ----------------------Dropdown menu start---------------------- */
+        #navbar_section .main .navbar{
+            width: 80%;
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            text-align: center;
+            align-items: center;
+        }
+        #navbar_section .main .navbar{
+            width: 80%;
+            display: block;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: transpablrent !important;
+        }
+        #navbar_section .main .dropdown{
+            display: block;
+            top: 0;
+            right: 0;
+            display: none;
+            margin-top: 15px;
+
+        }
+
+        #navbar_section .main .dropdown .icons{
+            text-align: end;
+            font-size: 30px;
+            margin-right: 15px;
+            cursor: pointer;
+            
+            
+        }
+        #navbar_section .main .dropdown .icons:active{
+            color: #d50a51;
+        }
+        #navbar_section .main .drop_down_open {
+            width: 100%;
+            background: rgba(254, 250, 252, 0.73);
+            height: 0px;
+            overflow: hidden;
+            padding: 0px 15px;
+            position: absolute;
+            top: 84%;
+            text-align: center;
+            backdrop-filter: blur(2px);
+            transition: .3s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+            
+        }
+        #navbar_section .main .drop_down_open li{display: block; margin-top: 9%; margin-top: -11%; transition: .4s cubic-bezier(0.25, 0.46, 0.45, 0.94);}
+
+        #navbar_section .main .drop_down_open ul li{
+            display: block;
+            text-align: center;
+            margin-bottom: 20px;
+            margin-top: 0%;
+            transition: .2s cubic-bezier(0.075, 0.82, 0.165, 1);
+            opacity: 0;
+
+        }
+
+        .open{height: 290px !important;padding: 20px 100px;}
+        .open li{margin-top: 5% !important; opacity: 1;}
+
+
+        #navbar_section .main .drop_down_open .common_btn{
+            display: flex;
+            padding: 6px 8px;
+            text-align: center;
+            justify-content: center;
+            width: 100%;
+        margin-top: 20px;
+
+        }
+        #navbar_section .main .drop_down_open .common_btn a{
+            font-size: 15px;
+        }
+        #navbar_section .main .logo .navbar .manu{
+            background: transparent !important;
+        }
+
+        
+        /* -------------------navbar css End------------------- */
+        /* -------------------about css start------------------- */
+        #about_section{
+            background: url(../Images/aboutBg.png) no-repeat repeat center center;
+            background-size: cover;
+            margin: -70px 0;
+            
+        }
+        #about_section .main{
+            display: flex;
+        }
+        #about_section .main .item_left{
+            width: 50%;
+            margin-top: 134px;
+        }
+        #about_section .main .item_left img{
+            width: 100%;
+        }
+        #about_section .main .item_right{
+            width: 50%;
+            margin-top: 240px;
+            text-align: center;
+        }
+    #about_section .main .item_right h3 {
+        color: #8a5e3b;
+        font-size: 62px;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        line-height: 21px;
+    }
+    #about_section .main .item_right h2 {
+    font-size: 84px;
+    color: #d50a51;
+    font-family: 'Great Vibes', cursive;
+    margin-bottom: 28px;
+    line-height: 84px;
+    font-weight: 700;
+    }
+        #about_section .main .item_right .common_btn{
+            margin-top: 60px;
+        }
+        /* -------------------about css End------------------- */
+        /* -------------------history of valentine css End------------------- */
+        #history_valentine .main{
+            display: flex;
+            margin: 105px 0px 90px 0px;
+        }
+        #history_valentine .main .item_left{
+            width: 50%;
+            
+        }
+        #history_valentine .main .item_right{
+            width: 50%;
+            position: relative;
+            margin-left: 50px;
+        }
+        
+        #history_valentine .main .item_right p{
+            text-align: left;
+        }
+
+        /* -------------------history of valentine css End------------------- */
+        /* -------------------proposal css start------------------- */
+        #proposal_section{
+            background:url(/images/proposal-bg.png) no-repeat repeat center center;
+            background-size: cover;
+        }
+        #proposal_section .main{
+            padding-top: 90px;
+            padding-bottom: 60px;
+
+        }
+        #proposal_section .main .item_left{
+            width: 50%;
+            padding-right: 20px;
+        }
+        #proposal_section .main .item_left .buttons{
+            margin-top: 40px;
+        }
+        #proposal_section .main .item_left .buttons .button{
+            margin-right: 15px;
+        }
+        #proposal_section .main .item_left .buttons2 .button{
+            margin-left: 15px;
+        }
+        #proposal_section .main .item_right{
+            width: 50%;
+            position: relative;
+        }
+        #proposal_section .main .item_right img {
+            position: absolute;
+            width: 125%;
+            left: 433px;
+            bottom: -26px;
+        }
+        /* -------------------proposal css End------------------- */
+        /* -------------------ticket css End------------------- */
+        #ticket_section{
+            margin: 125px 0px 110px 0px;
+        }
+        #ticket_section .main{
+            display: flex;
+            justify-content: space-between;
+        }
+        #ticket_section .main .right_item{
+            width: 48%;
+            position: relative;
+        }
+
+        #ticket_section .main .right_item p{
+            text-align: right;
+        
+            
+        }
+        #ticket_section .main .left_item{
+            width: 48%;
+        }
+        #ticket_section .main .left_item img{
+            width: 100%;
+        }
+        /* -------------------ticket css End------------------- */
+        /* -------------------valentain offer  css start------------------- */
+        #valantaine_offer{
+            
+            background:url(/images/valentine_bg.png);
+            
+        }
+        #valantaine_offer .inner{
+            padding: 80px 0px 30px 0px;
+            display: flex;
+        }
+        #valantaine_offer .item_left{
+            width: 35%;
+            
+        }
+        #valantaine_offer .item_right{
+            width: 65%;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            padding-left: 20px;
+            
+        }
+        #valantaine_offer .item_right .item{
+            width: 48%;
+            margin-bottom: 20px;
+        }
+        #valantaine_offer .item_right .item .main{
+            position: relative;
+            padding: 30px;
+            background: rgba(241, 241, 241, 0);
+            transition: 0.4s;
+        }
+        #valantaine_offer .item_right .item .main:after{
+            content: "";
+            position: absolute;
+            right: 0;
+            top: 0;
+            height: 0%;
+            width: 3px;
+            background: #d50a51;
+            transition: 0.4s;
+        }
+        #valantaine_offer .item_right .item:hover .main:after{
+            height: 100%;
+        }
+        #valantaine_offer .item_right .item:hover .main{
+            background: rgb(241, 241, 241);
+            box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+        }
+        #valantaine_offer .item_right .item .main .icon{
+            display: inline-block;
+        }
+        #valantaine_offer .item_right .item .main .icon img{
+            transform:translateY(-20px);
+        }
+        #valantaine_offer .item_right .item .main h2 {
+            margin-bottom: 25px;
+            display: inline-block;
+            margin-left: 22px;
+            font-size: 20px;
+            line-height: 24px;
+            font-family: 'Josefin Sans', sans-serif;
+            color: #d50a51;
+
+
+        }
+        /* -------------------valentain offer  css End------------------- */
+
+        /* -------------------valentain shoots  css start------------------- */
+    #valentine_shoots{
+        padding: 100px 0px 100px 0px;
+    }
+    #valentine_shoots .inner{
+        display: flex;
+        
+    }
+    #valentine_shoots .inner .item_left{
+        width: 65%;
+    }
+    #valentine_shoots .item_left{
+        width: 70%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-right: 20px;
+        
+    }
+    #valentine_shoots .item_left .items{
+        position: relative;
+        width: 48%;
+        margin-bottom: 20px;
+        overflow: hidden;
+    }
+    #valentine_shoots .item_left .items::after{
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        background: #000;
+        transition: 0.4s;
+        top: 0;
+        opacity: 0;
+
+    }
+    #valentine_shoots .item_left .items:hover::after{
+        opacity: 0.7;
+    }
+    #valentine_shoots .item_left .items img{
+        width: 100%;
+    }
+    #valentine_shoots .item_left .items .contant{
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        bottom: -60px;
+        transform: translate(-50%);
+        width: 100%;
+        opacity: 0;
+        transition: 0.4s ease-in-out;
+        z-index: 1;
+
+    }
+    #valentine_shoots .item_left .items:hover .contant{
+        bottom: 20px;
+        opacity: 1;
+    }
+    #valentine_shoots .item_left .items .contant h2{
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        margin-bottom: 15px;
+    }
+    #valentine_shoots .item_left .contant .inner_text{
+        display: flex;
+        justify-content: space-around;
+    }
+    #valentine_shoots .item_left .contant .inner_text i{
+        color: #fff;
+        margin-right: 5px;
+        transition: 0.4s;
+    }
+    #valentine_shoots .item_left .contant .inner_text i:hover{
+        color: #d50a51;
+    }
+    #valentine_shoots .item_left .contant .inner_text span{
+        color: #fff;
+        font-size: 14px;
+        font-weight: 400;
+        font-family: 'Open Sans', sans-serif;
+        
+    }
+    #valentine_shoots .item_left .contant .inner_text .item{
+        display: flex;
+    }
+    #valentine_shoots .inner .item_right {
+        width: 35%;
+        margin-left: 10px;
+    }
+    /* ==================left icons css start================== */
+
+    #valentine_shoots .item_left .items .icons{
+        position: absolute;
+        right: -50px;
+        top: 20px;
+        transition: 0.4s ease-in-out;
+        z-index: 1;
+        
+    }
+    #valentine_shoots .item_left .items:hover .icons{
+        right: 20px;
+    }
+
+    #valentine_shoots .item_left .icon_item{
+        content: "";
+        height: 50px;
+        width: 50px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+        background: #000 transparent;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20px;
+        transition: 0.4s;
+    }
+    #valentine_shoots .item_left .icon_item:hover{
+        background: #d50a51;
+        border-color: #d50a51;
+    }
+    #valentine_shoots .item_left .icon_item i {
+        position: absolute;
+        left: 50%;
+        top: 0%;
+        transform: translate(-50%, 75%);
+        font-size: 18px;
+        color: #fff;
+    }
+    #valentine_shoots .item_right p{
+        text-align: right;
+    }
+    #valentine_shoots .item_right .buttons{
+        display: flex;
+        justify-content: flex-end;
+    }
+    #valentine_shoots .item_right .buttons .button2{
+        margin-left: 20px;
+    }
+
+        /* -------------------valentain shoots  css End------------------- */
+
+        /* -------------------Countdown  css start------------------- */
+    #count_down{
+        background: url(/images/countdown\ bg.png) no-repeat repeat;
+        background-size: cover;
+        padding: 100px 0;
+    }
+    #count_down .inner{
+        display: flex;
+        justify-content: space-between;
+    }
+    #count_down .inner .item{
+        width: 25%;
+        text-align: center;
+        position: relative;
+    }
+    #count_down .inner .item::after {
+        content: "";
+        width: 21%;
+        height: 84%;
+        position: absolute;
+        left: 40%;
+        top: -126%;
+        background: url(/images/countdown\ love.png);
+        opacity: 0.7;
+    }
+    #count_down .inner .item h4{
+        color: #d50a51;
+        font-size: 42px;
+        line-height: 30px;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans', sans-serif;
+    
+
+
+    }
+    #count_down .inner .item h2{
+        color: #444444;
+        font-size: 32px;
+        line-height: 30px;
+        text-transform: capitalize;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+
+
+    }
+
+    /* -------------------Countdown  css End------------------- */
+    /* -------------------testimonial  css Start------------------- */
+    #testimonial{
+        padding: 145px 0px 150px 0px;
+        position: relative;
+    }
+
+    #testimonial .main .inner .innersss{
+        margin: 0px 10px;
+    }
+    #testimonial .main .inner .slider{
+        background-color: #fffae2;
+        padding: 20px;
+        margin: 0px 10px !important;
+    }
+    #testimonial .inner .author{
+        display: flex;
+        margin-top: 20px;
+    }
+    #testimonial .inner .author .information{
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+    #testimonial .inner .author .information h1{
+        font-size: 20px;
+        font-weight: 700;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 24px;
+
+    }
+    #testimonial .inner .author .information h2{
+        font-size: 18px;
+        font-weight: 400;
+        color: #444444;
+        font-family: 'Josefin Sans', sans-serif;
+        line-height: 24px;
+        
+    }
+    #testimonial .main .frev{
+        color: #d50a51;
+        height: 40px;
+        width: 40px;
+        left: -5%;
+        top: 50%;
+        border: 1px solid #d50a51;
+        border-radius: 50%;
+        position: absolute;
+        background:#d50a51 transparent;
+        transition: 0.4s;
+        text-align: center;
+        transform: translateY(-50%);
+        z-index: 22;
+        line-height: 40px;
+        cursor: pointer;
+        
+    }
+    #testimonial .main .frev:hover{
+        color: #fff;
+        background: #d50a51;
+    }
+    #testimonial .main .next{
+        color: #d50a51;
+        height: 40px;
+        width: 40px;
+        right: -5%;
+        top: 50%;
+        border: 1px solid #d50a51;
+        border-radius: 50%;
+        position: absolute;
+        background:#d50a51 transparent;
+        transition: 0.4s;
+        text-align: center;
+        transform: translateY(-50%);
+        z-index: 22;
+        line-height: 40px;
+        cursor: pointer;
+        
+    }
+    #testimonial .main .next:hover{
+        color: #fff;
+        background: #d50a51;
+    }
+    /* -------------------newsletter   css start------------------- */
+
+    #testimonial .newsletter {
+        position: relative;
+        padding: 30px 50px;
+        background: #d50a51;
+        bottom: -50px;
+        border-radius: 100px;
+    }
+    #testimonial .newsletter::after {
+        content: "";
+        position: absolute;
+        left: 381px;
+        top: 105px;
+        width: 72px;
+        height: 66px;
+        background: url(/images/testimonia-1.png);
+        opacity: 0.8;
+    }
+    #testimonial .newsletter::before {
+        content: "";
+        position: absolute;
+        right: 362px;
+        bottom: 110px;
+        width: 72px;
+        height: 66px;
+        background: url(/images/testimonial-love.png);
+        opacity: 0.8;
+    }
+    #testimonial .newsletter .inner {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+    }
+
+    #testimonial .newsletter .left_item i{
+        margin-right: 15px;
+        font-size: 50px;
+        color: #fff;
+    }
+    #testimonial .newsletter .left_item h1{
+        font-size: 40px;
+        text-transform: uppercase;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+        color: #fff;
+        line-height: 24px;
+    }
+    #testimonial .newsletter .left_item p{
+        font-size: 14px;
+        text-transform: capitalize;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 400;
+        color: #ffffff;
+        line-height: 24px;
+    }
+    #testimonial .newsletter .left_item .mian{
+        display: flex;
+    }
+    #testimonial .newsletter .right_item {
+        width: 50%;
+        display: flex;
+        justify-content: end;
+        
+    }
+    #testimonial .newsletter .right_item button {
+        position: absolute;
+        width: 50px;
+        height: 43%;
+        border: 1px solid #fff;
+        font-size: 30px;
+        cursor: pointer;
+        background:#d50a51;
+        color: #fff;
+    }
+    #testimonial .newsletter .right_item input {
+        padding: 15px;
+        background: transparent;
+        outline: none;
+        border: 1px solid #fff;
+        color: #fff;
+        width: 48%;
+        font-size: 13px;
+        margin-left: 20px;
+    }
+
+    #testimonial .newsletter .right_item .icon {
+        position: absolute;
+        top: 50%;
+        height: 43%;
+        width: 40px;
+        border: 1px solid #fff;
+        transform: translatey(-50%);
+    }
+
+    #testimonial .newsletter .right_item .icon i{
+        position: absolute;
+        right: 0%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 20px;
+        color: #fff;
+        cursor: pointer;
+    }
+    /* -------------------testimonial  css End------------------- */
+    /* -------------------footer  css start------------------- */
+    #footer{
+        padding: 90px 0px 0px 0px;
+        background: url(/images/footer.png);
+    }
+    #footer .logo{
+        text-align: center;
+        margin-bottom: 80px;
+    }
+    #footer .inner{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 60px;
+    }
+    #footer .inner .item{
+        width: 33.33%;
+        display: flex;
+    }
+    #footer .inner .item .icon{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background: #d50a51;
+        margin-right: 20px;
+    }
+    #footer .inner .item .icon i{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 26px;
+        color: #ffff;
+        transform: translate(-50%, -50%);
+    }
+    #footer .inner .item .text p{
+        color: #444444;
+        font-size: 16px;
+        line-height: 26px;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 400;
+    }
+    #footer .follow_us{
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    #footer .follow_us h1{
+        font-size: 25px;
+        color: #d50a51;
+        font-family: 'Josefin Sans', sans-serif;
+        font-weight: 700;
+    }
+    #footer .social_icon{
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        margin-bottom: 40px;
+    }
+    #footer .icons{
+        display: flex;
+    
+
+    }
+    #footer .icons .icon_item{
+        position: relative;
+        height: 50px;
+        width: 50px;
+        border: 2px solid #d50a51;
+        border-radius: 50%;
+        background: #000 transparent;
+        position: relative;
+        cursor: pointer;
+        margin-bottom: 20px;
+        margin: 0 10px;
+        transition: 0.4s;
+    }
+    #footer .icons .icon_item:hover{
+        background: #d50a51;
+    }
+    #footer .icons .icon_item i{
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        font-size: 20px;
+        color: #d50a51;
+        transform: translate(-50%, -50%);
+        transition: 0.4s;
+        
+    }
+    #footer .icons .icon_item:hover i{
+        color: #fff;
+    }
+    #footer .copyright{
+        
+        padding: 40px 0px;
+        background: #fad5e6;
+    }
+    #footer .copyright p{
+        text-align: center;
+    }
+    /* -------------------footer  css End------------------- */

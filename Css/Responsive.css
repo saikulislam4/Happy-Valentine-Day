@@ -1,0 +1,379 @@
+        /* =======X-Small devices (portrait phones, less than 576px)======= */
+        @media (min-width: 300px) and (max-width: 575.99px) {
+        
+        p {font-size: 15px;text-align: center;}
+        p span { margin-top: 20px;}
+        /* =======================common responsive end======================= */
+
+        /* ====================navbar responsive start==================== */
+        #navbar_section .main .navbar{display: none;}
+        #navbar_section .main .dropdown{display: block;}
+
+        #navbar_section .main {position: none;}
+        .logo { margin-left: 15px;}
+        .open {height: 520% !important;}
+        
+        /* ====================about responsive start==================== */
+        #about_section {padding: 0px 15px 50px 15px;}
+        #about_section .main {display: flex;flex-wrap: wrap;}
+        #about_section .main .item_left {width: 100%; margin-top: 100px;}
+        #about_section .main .item_right {width: 100%;}
+        #about_section .main .item_right {margin-top: 100px;}
+        #about_section .main .item_right .common_btn {margin-top: 20px;}
+        #about_section .main .item_right h2 {font-size: 80px; margin-top: 13px;}
+        
+        /* ====================History valentine responsive start==================== */
+        #history_valentine .main {margin: 100px 0px 50px 0px;flex-wrap: wrap; padding: 0 15px;}
+        #history_valentine .main .item_left {width: 100%;}
+        #history_valentine .main .item_right {width: 100%; margin-left: 0px;}
+        
+        /* ====================Proposal responsive start==================== */
+        #proposal_section .main {padding: 0 15px 60px 15px;}
+        #proposal_section .main .item_left {width: 100%;padding-right: 0px;}
+        #proposal_section .main .item_right {width: 100%;}
+        #proposal_section .main .item_left p{text-align: left;}
+        #proposal_section .main .item_left .buttons .button {margin-bottom: 20px;}
+        #proposal_section .main .item_left .buttons {margin-top: 50%;width: 60%;}
+        #proposal_section .main .item_right img {width: 60%;left: 43%; bottom: -10px;}
+        
+        /* ====================ticket responsive start==================== */
+        #ticket_section {margin: 50px 15px 50px 15px;}
+        #ticket_section .main {flex-wrap: wrap;}
+        #ticket_section .main .left_item {width: 100%;}
+        #ticket_section .main .right_item {width: 100%;}
+        .right_valentine_btn {padding-bottom: 50px;}
+        #ticket_section .main .right_item p{text-align: left;}
+
+        /* ====================ticket responsive start==================== */
+        #valantaine_offer .inner {padding: 50px 15px 30px 15px;flex-wrap: wrap;}
+        #valantaine_offer .item_left {width: 100%;}
+        #valantaine_offer .item_left p{text-align: left; margin-bottom: 20px;}
+        .common_valentine_btn {padding-bottom: 20px; padding-top: 60px;}
+        #valantaine_offer .item_right {width: 100%;padding-left: 0px;}
+        #valantaine_offer .item_right .item .main {padding: 20px;}
+        #valantaine_offer .item_right .item {width: 100%;}
+        #valantaine_offer .item_right .item p{text-align: left;}
+        #valantaine_offer .item_right .item .main {background: rgb(241, 241, 241);box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+        #valantaine_offer .item_right .item .main::after {height: 100%;}
+
+        /* ====================valentine shorts responsive start==================== */
+        #valentine_shoots {padding: 50px 15px 50px 15px;}
+        #valentine_shoots .inner {flex-wrap: wrap;}
+        #valentine_shoots .inner .item_left {width: 100%; margin-right: 0;}
+        #valentine_shoots .item_left .items {width: 100%;}
+        #valentine_shoots .item_left .items .contant {bottom: 20px;opacity: 1;}
+        #valentine_shoots .item_left .items::after {opacity: 0.7;}
+        #valentine_shoots .item_left {padding-right: 0px;}
+        #valentine_shoots .item_left .contant .inner_text {padding: 0 10px;}
+        #valentine_shoots .item_left .contant .inner_text {justify-content: space-between;}
+        #valentine_shoots .item_left .contant .inner_text span {font-size: 10px;}
+        #valentine_shoots .item_left .items .icons {display: none;}
+        #valentine_shoots .inner .item_right {width: 100%;margin-left: 0px}
+        .common_btn {padding: 8px 12px;}
+        #valentine_shoots .item_right .buttons {justify-content: space-between; margin-top: 20px;}
+        .common_btn a {font-size: 14px;}
+        .common_btn i {font-size: 14px;}
+        .common_btn a {color: #fff;}
+        .common_btn{background: #d50a51;}
+        .common_btn i {color: #fff;}
+
+        /* ====================Count_Down responsive start==================== */
+        #count_down .inner {padding: 0 15px;}
+        #count_down .inner .item h4 {font-size: 20px;}
+        #count_down .inner .item h2 {font-size: 15px;}
+        #count_down { padding: 50px 0;}
+        #count_down .inner .item::after {width: 88%;height: 85%;left: 8%;top: -74%;opacity: 0.5;}
+
+        /* ====================Testimonial responsive start==================== */
+        #testimonial {padding: 50px 15px 50px 15px;}
+        #testimonial .main .inner .slider {margin: 0px 0px !important;}
+        #testimonial .main .inner .innersss { margin: 0px 0px;}
+        .slick-initialized .slick-slide {margin: 0 10px;}
+        
+        /* ====================newsletter responsive start==================== */
+        #testimonial .newsletter { padding: 20px 18px;bottom: -20px;border-radius: 0px;}
+        #testimonial .newsletter .left_item i { margin-right: 15px;}
+        #testimonial .newsletter .left_item h1 {font-size: 24px;}
+        #testimonial .newsletter .left_item p {font-size: 13px;line-height: 20px;text-align: start;}
+        #testimonial .newsletter .inner {flex-wrap: wrap;}
+        #testimonial .newsletter .inner .left_item{width: 100%; }
+        #testimonial .newsletter .right_item {width: 100%; display: flex; flex-wrap: wrap;}
+        #testimonial .newsletter .right_item input {width: 100%;margin: 10px 0;}
+        #testimonial .newsletter .right_item button {height: 20%; bottom: 12.5%;}
+
+        /* ====================footer responsive start==================== */
+        #footer {padding: 50px 15px 0px 15px;}
+        #footer .logo {margin-bottom: 50px; margin-left: 0;}
+        #footer .inner {flex-wrap: wrap; margin-bottom: 20px; }
+        #footer .inner .item {width: 100%;display: flex; margin-bottom: 20px;}
+        #footer .inner .item .text p {font-size: 15px;}
+        #footer .inner .item .icon {margin-right: 20px;}
+        #footer .follow_us { margin-bottom: 20px;}
+        #footer .social_icon {margin-bottom: 0px;}
+        #footer .copyright {padding: 20px 0px;}
+        #footer .icons .icon_item i { color: #fff;}
+        #footer .icons .icon_item {background: #d50a51;}
+        
+        }
+
+        /* =======Small devices (landscape phones, less than 768px)======= */
+        @media (min-width: 576px) and (max-width: 767.99px) {
+        
+        p {font-size: 15px;text-align: center;}
+        p span { margin-top: 20px;}
+        /* =======================common responsive end======================= */
+
+        /* ====================navbar responsive start==================== */
+        #navbar_section .main .navbar{display: none;}
+        #navbar_section .main .dropdown{display: block;}
+
+        #navbar_section .main {position: none;}
+        .logo { margin-left: 15px;}
+        .open {
+                height: 600% !important;
+                padding: 20px 100px;
+        }
+
+        
+        /* ====================about responsive start==================== */
+        #about_section {padding: 0px 15px 50px 15px;}
+        #about_section .main {display: flex;flex-wrap: wrap;}
+        #about_section .main .item_left {width: 100%; margin-top: 100px;}
+        #about_section .main .item_right {width: 100%;}
+        #about_section .main .item_right {margin-top: 100px;}
+        #about_section .main .item_right .common_btn {margin-top: 20px;}
+        #about_section .main .item_right h2 {font-size: 80px; margin-top: 13px;}
+        
+        /* ====================History valentine responsive start==================== */
+        #history_valentine .main {margin: 100px 0px 50px 0px;flex-wrap: wrap; padding: 0 15px;}
+        #history_valentine .main .item_left {width: 100%;}
+        #history_valentine .main .item_right {width: 100%; margin-left: 0px;}
+        
+        /* ====================Proposal responsive start==================== */
+        #proposal_section .main {padding: 0 15px 60px 15px;}
+        #proposal_section .main .item_left {width: 100%;padding-right: 0px;}
+        #proposal_section .main .item_right {width: 100%;}
+        #proposal_section .main .item_left p{text-align: left;}
+        #proposal_section .main .item_left .buttons .button {margin-bottom: 20px;}
+        #proposal_section .main .item_left .buttons {margin-top: 50%;width: 60%;}
+        #proposal_section .main .item_right img {width: 60%;left: 43%; bottom: -10px;}
+        
+        /* ====================ticket responsive start==================== */
+        #ticket_section {margin: 50px 15px 50px 15px;}
+        #ticket_section .main {flex-wrap: wrap;}
+        #ticket_section .main .left_item {width: 100%;}
+        #ticket_section .main .right_item {width: 100%;}
+        .right_valentine_btn {padding-bottom: 50px;}
+        #ticket_section .main .right_item p{text-align: left;}
+
+        /* ====================ticket responsive start==================== */
+        #valantaine_offer .inner {padding: 50px 15px 30px 15px;flex-wrap: wrap;}
+        #valantaine_offer .item_left {width: 100%;}
+        #valantaine_offer .item_left p{text-align: left; margin-bottom: 20px;}
+        .common_valentine_btn {padding-bottom: 20px; padding-top: 60px;}
+        #valantaine_offer .item_right {width: 100%; padding-left: 0px;display: flex;justify-content: space-between;flex-wrap: wrap;}
+        #valantaine_offer .item_right .item .main {padding: 20px;}
+        #valantaine_offer .item_right .item {width: 48%;}
+        #valantaine_offer .item_right .item p{text-align: left;}
+        #valantaine_offer .item_right .item .main {background: rgb(241, 241, 241);box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;}
+        #valantaine_offer .item_right .item .main::after {height: 100%;}
+
+        /* ====================valentine shorts responsive start==================== */
+        #valentine_shoots {padding: 50px 15px 50px 15px;}
+        #valentine_shoots .inner {flex-wrap: wrap;}
+        #valentine_shoots .inner .item_left { width: 100%;margin-right: 0;justify-content: space-between;flex-wrap: wrap;}
+        #valentine_shoots .item_left .items {width: 48%;}
+        #valentine_shoots .item_left .items .contant {bottom: 20px;opacity: 1;}
+        #valentine_shoots .item_left .items::after {opacity: 0.7;}
+        #valentine_shoots .item_left {padding-right: 0px;}
+        #valentine_shoots .item_left .contant .inner_text {padding: 0 10px;}
+        #valentine_shoots .item_left .contant .inner_text {justify-content: space-between;}
+        #valentine_shoots .item_left .contant .inner_text span {font-size: 10px;}
+        #valentine_shoots .item_left .items .icons {display: none;}
+        #valentine_shoots .inner .item_right {width: 100%;margin-left: 0px}
+        .common_btn {padding: 8px 12px;}
+        #valentine_shoots .item_right .buttons {justify-content: space-evenly; margin-top: 20px;}
+        .common_btn a {font-size: 14px;}
+        .common_btn i {font-size: 14px;}
+        .common_btn a {color: #fff;}
+        .common_btn{background: #d50a51;}
+        .common_btn i {color: #fff;}
+
+        /* ====================Count_Down responsive start==================== */
+        #count_down .inner {padding: 0 15px;}
+        #count_down .inner .item h4 {font-size: 20px;}
+        #count_down .inner .item h2 {font-size: 15px;}
+        #count_down { padding: 50px 0;}
+        #count_down .inner .item::after {  width: 32%; height: 86%; left: 37%; top: -92%;opacity: 0.5;}
+
+        /* ====================Testimonial responsive start==================== */
+        #testimonial {padding: 50px 15px 50px 15px;}
+        #testimonial .main .inner .slider {margin: 0px 0px !important;}
+        .slick-initialized .slick-slide {margin: 0 10px;}
+        #testimonial .main .frev {left: 0%;}
+        #testimonial .main .next {right: 0%;}
+        
+        /* ====================newsletter responsive start==================== */
+        #testimonial .newsletter { padding: 20px 18px;bottom: -20px;border-radius: 0px;}
+        #testimonial .newsletter .left_item i { margin-right: 15px;}
+        #testimonial .newsletter .left_item h1 {font-size: 24px;}
+        #testimonial .newsletter .left_item p {font-size: 13px;line-height: 20px;text-align: start;}
+        #testimonial .newsletter .inner {flex-wrap: wrap;}
+        #testimonial .newsletter .inner .left_item{width: 100%; }
+        #testimonial .newsletter .right_item {width: 100%; display: flex; flex-wrap: wrap;}
+        #testimonial .newsletter .right_item input {width: 100%;margin: 10px 0;}
+        #testimonial .newsletter .right_item button {height: 21%; bottom: 13.5%;}
+
+        /* ====================footer responsive start==================== */
+        #footer {padding: 50px 15px 0px 15px;}
+        #footer .logo {margin-bottom: 50px; margin-left: 0;}
+        #footer .inner {flex-wrap: wrap; margin-bottom: 20px; }
+        #footer .inner .item {width: 100%;display: flex; margin-bottom: 20px;}
+        #footer .inner .item .text p {font-size: 15px;}
+        #footer .inner .item .icon {margin-right: 20px;}
+        #footer .follow_us { margin-bottom: 20px;}
+        #footer .social_icon {margin-bottom: 0px;}
+        #footer .copyright {padding: 20px 0px;}
+        #footer .icons .icon_item i { color: #fff;}
+        #footer .icons .icon_item {background: #d50a51;}
+        
+        }
+        /* =======Large devices (desktops, 992px and up)======= */
+        @media (min-width: 768px) and (max-width: 991.99px) {
+            
+        /* ====================navbar responsive start==================== */
+        #navbar_section .main .navbar{display: none;}
+        #navbar_section .main .dropdown{display: block;}
+
+        #navbar_section .main {position: none;}
+        .logo { margin-left: 15px;}
+        .open {height: 600% !important;}
+        .open li {margin-top: 4% !important;}
+        
+        /* ====================about responsive start==================== */
+        #about_section {padding: 0px 15px 50px 15px;}
+        #about_section .main .item_left {width: 100%; margin-top: 100px;}
+        #about_section .main .item_right {width: 100%;}
+        #about_section .main .item_right {margin-top: 100px;}
+        #about_section .main .item_right .common_btn {margin-top: 20px;}
+        #about_section .main .item_right h2 {font-size: 80px; margin-top: 13px;}
+        
+        /* ====================History valentine responsive start==================== */
+        #history_valentine .main {margin: 100px 0px 50px 0px;flex-wrap: wrap; padding: 0 0px;}
+        #history_valentine .main .item_left {width: 48%;}
+        #history_valentine .main .item_left img {width: 90%; object-fit: contain;}
+        #history_valentine .main .item_right {width: 48%; margin-left: 0px;}
+        
+        /* ====================Proposal responsive start==================== */
+        #proposal_section .main {padding: 0 15px 60px 15px;}
+        #proposal_section .main .item_right img { left: 87%;}
+    
+        
+        /* ====================ticket responsive start==================== */
+        #ticket_section {margin: 50px 15px 50px 15px;}
+        .right_valentine_btn {padding-bottom: 50px;}
+
+
+        /* ====================ticket responsive start==================== */
+        #valantaine_offer .inner {padding: 50px 15px 30px 15px;flex-wrap: wrap;}
+
+        /* ====================valentine shorts responsive start==================== */
+        #valentine_shoots {padding: 50px 15px 50px 15px;}
+        .common_btn a {font-size: 14px;}
+        .common_btn i {font-size: 14px;}
+        .common_btn {padding: 9px 9px;}
+
+        /* ====================Testimonial responsive start==================== */
+        #testimonial {padding: 50px 15px 50px 15px;}
+        #testimonial .main .frev {left: 0%;}
+        #testimonial .main .next {right: 0%;}
+
+        /* ====================footer responsive start==================== */
+        #footer {padding: 50px 15px 0px 15px;}
+        #footer .inner .item .text p { text-align: start;}
+        
+        }
+        /* =======X-Large devices (large desktops, 1200px and up)======= */
+        @media (min-width: 992px) and (max-width: 1199.99px) {
+
+        /* #navbar_section .main {position: none;} */
+        .logo { margin-left: 15px; width: 30%;}
+        #navbar_section .main .navbar {margin-right: 15px;}
+        
+        /* ====================about responsive start==================== */
+        #about_section {padding: 0px 15px 50px 15px;}
+
+        
+        /* ====================History valentine responsive start==================== */
+        #history_valentine .main {margin: 100px 0px 50px 0px;}
+   
+        
+        /* ====================Proposal responsive start==================== */
+        #proposal_section .main {padding: 0 15px 60px 15px;}
+
+    
+        
+        /* ====================ticket responsive start==================== */
+        #ticket_section {margin: 50px 15px 50px 15px;}
+    
+
+
+        /* ====================ticket responsive start==================== */
+        #valantaine_offer .inner {padding: 50px 15px 30px 15px;flex-wrap: wrap;}
+
+        /* ====================valentine shorts responsive start==================== */
+        #valentine_shoots {padding: 50px 15px 50px 15px;}
+        #valentine_shoots .item_right .buttons {margin-top: 20px;}
+
+        /* ====================Testimonial responsive start==================== */
+        #testimonial {padding: 50px 15px 50px 15px;}
+        #testimonial .main .frev {left: 0%;}
+        #testimonial .main .next {right: 0%;}
+
+        /* ====================footer responsive start==================== */
+        #footer {padding: 50px 15px 0px 15px;}
+        #footer .inner .item .text p { text-align: start;}
+        
+        }
+        /* =======XX-Large devices (larger desktops, 1400px and up)======= */
+        @media (min-width: 1200px) and (max-width: 1500px) {
+
+        /* #navbar_section .main {position: none;} */
+        .logo { margin-left: 15px; width: 30%;}
+        #navbar_section .main .navbar {margin-right: 15px;}
+        
+        /* ====================about responsive start==================== */
+        #about_section {padding: 0px 15px 50px 15px;}
+
+        
+        /* ====================History valentine responsive start==================== */
+        #history_valentine .main {margin: 100px 0px 50px 0px;}
+   
+        
+        /* ====================Proposal responsive start==================== */
+        #proposal_section .main {padding: 0 15px 60px 15px;}
+
+    
+        
+        /* ====================ticket responsive start==================== */
+        #ticket_section {margin: 50px 15px 50px 15px;}
+    
+
+
+        /* ====================ticket responsive start==================== */
+        #valantaine_offer .inner {padding: 50px 15px 30px 15px;flex-wrap: wrap;}
+
+        /* ====================valentine shorts responsive start==================== */
+        #valentine_shoots {padding: 50px 15px 50px 15px;}
+        #valentine_shoots .item_right .buttons {margin-top: 20px;}
+
+        /* ====================Testimonial responsive start==================== */
+        #testimonial {padding: 50px 15px 50px 15px;}
+        #testimonial .main .frev {left: 0%;}
+        #testimonial .main .next {right: 0%;}
+
+        /* ====================footer responsive start==================== */
+        #footer {padding: 50px 15px 0px 15px;}
+        #footer .inner .item .text p { text-align: start;}
+        
+        }
