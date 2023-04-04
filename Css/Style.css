@@ -109,11 +109,9 @@
             bottom: 74px;
             width: 120px;
             height: 100px;
-<<<<<<< HEAD
             background: url(../Images/valentine-shadow.png);
-=======
-            background: url(../Images/valentine-shadow.png;
->>>>>>> b6604ed71ac14b816f00c21efdc81aeebd6d9f02
+
+
             position: absolute;
             background-size: cover;
             transform: scaleX(-1);
@@ -404,11 +402,8 @@
         /* -------------------valentain offer  css start------------------- */
         #valantaine_offer{
             
-<<<<<<< HEAD
-            background:url(../Images/valentine_bg.png);
-=======
            background:url(../Images/valentine_bg.png) no-repeat repeat center center;
->>>>>>> b6604ed71ac14b816f00c21efdc81aeebd6d9f02
+
             
         }
         #valantaine_offer .inner{
@@ -617,9 +612,7 @@
 
         /* -------------------Countdown  css start------------------- */
     #count_down{
-
         background: url(../Images/countdown\ bg.png) no-repeat repeat;
-
         background-size: cover;
         padding: 100px 0;
     }
